@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythonapprepo
-        image: maddyzapp.azurecr.io/spdas23/mydemoapp:#{Build.BuildId}#
+        image: maddyzapp.azurecr.io/spdas23/mydemoapp:11
         ports:
         - containerPort: 5000
 # service type loadbalancer       
